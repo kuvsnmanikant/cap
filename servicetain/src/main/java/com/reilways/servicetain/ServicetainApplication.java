@@ -1,0 +1,20 @@
+package com.reilways.servicetain;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.stereotype.Component;
+@Component
+@Configuration
+@EnableAutoConfiguration
+@SpringBootApplication
+public class ServicetainApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ServicetainApplication.class, args);
+	}
+
+}
