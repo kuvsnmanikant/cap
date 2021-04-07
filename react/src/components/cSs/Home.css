@@ -1,0 +1,44 @@
+.paraimg1, .paraimg2 {
+	position: relative;
+	background-position: right;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+/* 
+fixed= parallax
+scroll= normal
+*/
+background-attachment: fixed;
+background-color: gainsboro;
+min-height: 100%;
+	min-width: 50%;
+    padding-top: 100px;
+
+}
+.paraimg1 {
+	background-image: url('../images/bg.gif');
+	
+	
+
+}
+.paraimg2 {
+	background-image: url('../images/LOGO.png');
+
+
+}
+
+.tex {
+    padding-top: 100px;
+    background-color: gainsboro;
+	color: white;
+	opacity: 0.5;
+}
+
+.side {
+	float: left;
+	width: 30%;
+}
+.side1 {
+	float: right;
+	width: 69%;
+}
